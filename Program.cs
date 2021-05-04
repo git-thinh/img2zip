@@ -42,7 +42,7 @@ class Program
     static void __startApp()
     {
         var redis = new RedisBase(new RedisSetting(REDIS_TYPE.ONLY_READ, 1001));
-
+        var keys = redis.KEYS();
 
         return;
 
