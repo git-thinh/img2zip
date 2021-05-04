@@ -1,0 +1,12 @@
+D:\tt\core\img2zip\obj\Debug\img2zip.csproj.CoreCompileInputs.cache
+D:\tt\build\img2zip\img2zip.exe
+D:\tt\build\img2zip\img2zip.pdb
+D:\tt\core\img2zip\obj\Debug\img2zip.exe
+D:\tt\core\img2zip\obj\Debug\img2zip.pdb
+D:\tt\core\img2zip\obj\Debug\img2zip.csprojAssemblyReference.cache
+D:\tt\build\img2zip\x64\concrt140.dll
+D:\tt\build\img2zip\x64\cvextern.dll
+D:\tt\build\img2zip\x64\msvcp140.dll
+D:\tt\build\img2zip\x64\opencv_videoio_ffmpeg411_64.dll
+D:\tt\build\img2zip\x64\vcruntime140.dll
+D:\tt\core\img2zip\obj\Debug\img2zip.csproj.CopyComplete
