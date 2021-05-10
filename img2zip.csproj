@@ -45,6 +45,9 @@
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <HintPath>..\_DLL2\System.Core.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.IdentityModel">
@@ -64,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\_Shared\RedisBasic\IRedisBase.cs">
+      <Link>_Shared\redis\IRedisBase.cs</Link>
+    </Compile>
     <Compile Include="..\_shared\redisbasic\RedisBase.cs">
       <Link>_Shared\RedisBasic\RedisBase.cs</Link>
     </Compile>
@@ -76,14 +82,11 @@
     <Compile Include="..\_shared\redisbasic\ResponseException.cs">
       <Link>_Shared\RedisBasic\ResponseException.cs</Link>
     </Compile>
-    <Compile Include="..\_shared\_document\DOC_TYPE.cs">
-      <Link>_Shared\_Document\DOC_TYPE.cs</Link>
-    </Compile>
-    <Compile Include="..\_shared\_document\oDocument.cs">
-      <Link>_Shared\_Document\oDocument.cs</Link>
-    </Compile>
     <Compile Include="..\_shared\_document\StaticDocument.cs">
       <Link>_Shared\_Document\StaticDocument.cs</Link>
+    </Compile>
+    <Compile Include="..\_Shared\__tuple_this.cs">
+      <Link>_Shared\__tuple_this.cs</Link>
     </Compile>
     <Compile Include="MyService.cs">
       <SubType>Component</SubType>
